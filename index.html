@@ -176,6 +176,30 @@
             border: 2px solid rgba(255,255,255,0.2);
         }
 
+        /* Video Section */
+        .video-section {
+            background: white;
+            padding: 3rem 1rem;
+            margin-bottom: 3rem;
+        }
+
+        .video-container {
+            max-width: 900px;
+            margin: 0 auto;
+            position: relative;
+            overflow: hidden;
+            border-radius: 20px;
+            box-shadow: 0 15px 50px rgba(0,0,0,0.2);
+        }
+
+        .video-container iframe {
+            width: 100%;
+            height: 600px;
+            border: 0;
+            display: block;
+            border-radius: 20px;
+        }
+
         /* Financing Notice */
         .financing-notice {
             background: linear-gradient(135deg, var(--warning) 0%, #fab1a0 100%);
@@ -206,6 +230,41 @@
             font-size: 1.4rem;
             font-weight: 700;
             line-height: 2;
+        }
+
+        /* Detailed Specs Section */
+        .detailed-specs {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 4rem 1rem;
+            margin: 3rem 0;
+        }
+
+        .detailed-specs .container {
+            max-width: 900px;
+        }
+
+        .detailed-specs h3 {
+            text-align: center;
+            font-size: 2.5rem;
+            margin-bottom: 3rem;
+            font-weight: 900;
+            text-shadow: 0 3px 15px rgba(0,0,0,0.3);
+        }
+
+        .specs-text {
+            background: rgba(255,255,255,0.95);
+            color: #333;
+            padding: 3rem;
+            border-radius: 20px;
+            font-size: 1.1rem;
+            line-height: 2;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+        }
+
+        .specs-text p {
+            margin-bottom: 1.5rem;
+            text-align: right;
         }
 
         /* Quick Stats */
@@ -657,6 +716,7 @@
             .gallery-grid { grid-template-columns: 1fr; }
             .quick-stats { grid-template-columns: repeat(2, 1fr); margin-top: -30px; }
             .cta h3 { font-size: 2.2rem; }
+            .video-container iframe { height: 350px; }
         }
     </style>
 <!-- Google Tag Manager -->
@@ -705,6 +765,16 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         </div>
     </section>
 
+    <!-- Video Section -->
+    <section class="video-section">
+        <div class="container">
+            <h3 style="text-align: center; font-size: 2.2rem; margin-bottom: 2rem; color: var(--accent); font-weight: 900;">🎥 عرض الفيديو الحي</h3>
+            <div class="video-container">
+                <iframe width="100%" height="600" src="https://www.youtube.com/embed/EZne5VMpJbg" title="شقة للبيع في 6 أكتوبر الحي السادس" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen loading="lazy"></iframe>
+            </div>
+        </div>
+    </section>
+
     <!-- Financing Notice -->
     <section class="container">
         <div class="financing-notice">
@@ -712,6 +782,40 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <p>
                 💰 في حالة التمويل العقاري يتم الدفع كاش مقدماً قبل التنازل عن الشقة
             </p>
+        </div>
+    </section>
+
+    <!-- Detailed Specs -->
+    <section class="detailed-specs">
+        <div class="container">
+            <h3>📋 المواصفات التفصيلية الشاملة</h3>
+            <div class="specs-text">
+                <p><strong>شقة تمليك للبيع الحي السادس مدينة ٦ أكتوبر</strong></p>
+                
+                <p>تصلح تمويل عقاري بشرط الدفع بالكامل كاش ومقدما او فتح حساب بالمبلغ كامل في نفس بنك التمويل</p>
+                
+                <p><strong>📍 الموقع:</strong> المجاورة الاولى امام مجمع الزعيم تاني بلكونة</p>
+                
+                <p><strong>🏢 النموذج:</strong> نموذج ٣</p>
+                
+                <p><strong>📐 المساحة:</strong> ٦٧ متر</p>
+                
+                <p><strong>📜 الوثائق:</strong> عقد اخضر</p>
+                
+                <p><strong>👤 الملكية:</strong> مالك اصلي</p>
+                
+                <p><strong>⚙️ الخدمات:</strong> ٣ عدادات - مياه - كهربا - غاز وصلة مطبخ ووصلة حمام</p>
+                
+                <p><strong>📱 جهات الاتصال:</strong> ت01093304677 - ت01110760081</p>
+                
+                <p><strong>🔑 الحالة الحالية:</strong> متأجرة حاليا</p>
+                
+                <p><strong>🌟 المميزات:</strong> امام المجمع وخدمات ٢٤ ساعة - ٣ دقايق من محطة دولسي</p>
+                
+                <p><strong>💰 السعر:</strong> نهائي والوسطاء يمتنعون منعا للاحراج</p>
+                
+                <p><strong>🤝 طريقة البيع:</strong> من المالك الاصلي للشقة الى المشتري مباشرة</p>
+            </div>
         </div>
     </section>
 
@@ -939,67 +1043,120 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
-        "@type": "Apartment",
+        "@type": "Product",
         "name": "شقة للبيع في 6 أكتوبر الحي السادس",
-        "description": "شقة تمليك 67 متر مربع - 2 غرفة - 1 حمام - عقد أخضر - خالصة ضرائب - من المالك مباشرة - جاهزة للسكن والتمويل العقاري",
-        "address": {
-            "@type": "PostalAddress",
-            "streetAddress": "المجاورة الأولى، عمارة 69، شقة 3",
-            "addressLocality": "الحي السادس، 6 أكتوبر",
-            "addressRegion": "الجيزة",
-            "addressCountry": "EG",
-            "postalCode": "12573"
+        "description": "شقة تمليك 67 متر مربع - 2 غرفة - 1 حمام - عقد أخضر - خالصة ضرائب - من المالك مباشرة - جاهزة للسكن والتمويل العقاري - المجاورة الأولى بمدينة 6 أكتوبر",
+        "brand": {
+            "@type": "Brand",
+            "name": "عقارات 6 أكتوبر"
         },
-        "geo": {
-            "@type": "GeoCoordinates",
-            "latitude": "29.938586",
-            "longitude": "30.924507"
-        },
-        "floorSize": {
-            "@type": "QuantitativeValue",
-            "value": "67",
-            "unitCode": "MTK"
-        },
-        "numberOfRooms": "2",
-        "numberOfBathroomsTotal": "1",
-        "floorLevel": "1",
         "offers": {
             "@type": "Offer",
-            "price": "1200000",
+            "url": "https://sherow1982.github.io/aqarat/",
             "priceCurrency": "EGP",
-            "availability": "https://schema.org/InStock",
+            "price": "1200000",
             "priceValidUntil": "2026-12-31",
+            "availability": "https://schema.org/InStock",
             "seller": {
                 "@type": "Person",
-                "name": "مالك الشقة",
-                "telephone": "+201110760081"
+                "name": "المالك الأصلي",
+                "contactPoint": {
+                    "@type": "ContactPoint",
+                    "contactType": "Sales",
+                    "telephone": "+201110760081"
+                }
             }
+        },
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "5",
+            "ratingCount": "1"
         },
         "image": [
             "https://raw.githubusercontent.com/sherow1982/aqarat/main/images/شقة تمليك للبيع مدينة 6 اكتوبر الحي السادس (1).webp",
             "https://raw.githubusercontent.com/sherow1982/aqarat/main/images/شقة تمليك للبيع مدينة 6 اكتوبر الحي السادس (2).webp",
-            "https://raw.githubusercontent.com/sherow1982/aqarat/main/images/شقة تمليك للبيع مدينة 6 اكتوبر الحي السادس (3).webp",
-            "https://raw.githubusercontent.com/sherow1982/aqarat/main/images/شقة تمليك للبيع مدينة 6 اكتوبر الحي السادس (4).webp",
-            "https://raw.githubusercontent.com/sherow1982/aqarat/main/images/شقة تمليك للبيع مدينة 6 اكتوبر الحي السادس (5).webp"
+            "https://raw.githubusercontent.com/sherow1982/aqarat/main/images/شقة تمليك للبيع مدينة 6 اكتوبر الحي السادس (3).webp"
         ],
-        "amenityFeature": [
+        "additionalProperty": [
             {
-                "@type": "LocationFeatureSpecification",
-                "name": "عقد أخضر رسمي"
+                "@type": "PropertyValue",
+                "name": "المساحة",
+                "value": "67 متر مربع"
             },
             {
-                "@type": "LocationFeatureSpecification",
-                "name": "3 عدادات منفصلة (مياه - كهرباء - غاز)"
+                "@type": "PropertyValue",
+                "name": "عدد الغرف",
+                "value": "2 غرفة"
             },
             {
-                "@type": "LocationFeatureSpecification",
-                "name": "خالصة ضرائب عقارية"
+                "@type": "PropertyValue",
+                "name": "عدد الحمامات",
+                "value": "1 حمام"
             },
             {
-                "@type": "LocationFeatureSpecification",
-                "name": "جاهزة للتمويل العقاري"
+                "@type": "PropertyValue",
+                "name": "الدور",
+                "value": "الأول"
+            },
+            {
+                "@type": "PropertyValue",
+                "name": "الموقع",
+                "value": "الحي السادس - المجاورة الأولى - مدينة 6 أكتوبر"
+            },
+            {
+                "@type": "PropertyValue",
+                "name": "نوع العقد",
+                "value": "عقد أخضر رسمي"
+            },
+            {
+                "@type": "PropertyValue",
+                "name": "حالة الملكية",
+                "value": "خالصة ضرائب - مالك أصلي"
+            },
+            {
+                "@type": "PropertyValue",
+                "name": "الخدمات",
+                "value": "3 عدادات منفصلة - مياه - كهرباء - غاز - وصلات مطبخ وحمام"
+            },
+            {
+                "@type": "PropertyValue",
+                "name": "المميزات",
+                "value": "جاهزة للسكن - جاهزة للتمويل العقاري - خدمات 24 ساعة - قريب من محطة الدولسي - بلكونة"
+            },
+            {
+                "@type": "PropertyValue",
+                "name": "الحالة الحالية",
+                "value": "متأجرة حاليا"
             }
-        ]
+        ],
+        "areaServed": {
+            "@type": "Place",
+            "name": "مدينة 6 أكتوبر - الحي السادس - المجاورة الأولى",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": "29.938586",
+                "longitude": "30.924507"
+            }
+        },
+        "video": {
+            "@type": "VideoObject",
+            "name": "عرض فيديو شقة للبيع في 6 أكتوبر الحي السادس",
+            "description": "فيديو عرض شامل لشقة تمليك 67 متر في الحي السادس بمدينة 6 أكتوبر",
+            "thumbnailUrl": "https://i.ytimg.com/vi/EZne5VMpJbg/maxresdefault.jpg",
+            "uploadDate": "2025-12-20",
+            "duration": "PT1M30S",
+            "embedUrl": "https://www.youtube.com/embed/EZne5VMpJbg"
+        },
+        "priceCurrency": "EGP",
+        "mainEntity": {
+            "@type": "RealEstateProperty",
+            "name": "شقة تمليك 6 أكتوبر الحي السادس",
+            "propertyType": "Apartment",
+            "addressCountry": "EG",
+            "addressRegion": "الجيزة",
+            "addressLocality": "مدينة 6 أكتوبر - الحي السادس",
+            "streetAddress": "المجاورة الأولى - عمارة 69 - شقة 3"
+        }
     }
     </script>
 </body>
