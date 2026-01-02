@@ -1,15 +1,87 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+        xmlns:video="http://www.google.com/schemas/sitemap-video/1.1"
         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 
-    <!-- الصفحة الرئيسية -->
+    <!-- الصفحة الرئيسية مع الصور والفيديو -->
     <url>
         <loc>https://sherow1982.github.io/aqarat/</loc>
-        <lastmod>2025-11-16</lastmod>
+        <lastmod>2026-01-02</lastmod>
         <changefreq>weekly</changefreq>
         <priority>1.0</priority>
+        
+        <!-- صور الممتلك -->
+        <image:image>
+            <image:loc>https://raw.githubusercontent.com/sherow1982/aqarat/main/images/images%D8%B4%D9%82%D8%A9%20%D8%AA%D9%85%D9%84%D9%8A%D9%83%20%D9%84%D9%84%D8%A8%D9%8A%D8%B9%20%D9%85%D8%AF%D9%8A%D9%86%D8%A9%206%20%D8%A7%D9%83%D8%AA%D9%88%D8%A8%D8%B1%20%D8%A7%D9%84%D8%AD%D9%8A%20%D8%A7%D9%84%D8%B3%D8%A7%D8%AF%D8%B3%20%20(1).webp</image:loc>
+            <image:title>شقة للبيع 6 أكتوبر الحي السادس - صورة 1</image:title>
+        </image:image>
+        <image:image>
+            <image:loc>https://raw.githubusercontent.com/sherow1982/aqarat/main/images/images%D8%B4%D9%82%D8%A9%20%D8%AA%D9%85%D9%84%D9%8A%D9%83%20%D9%84%D9%84%D8%A8%D9%8A%D8%B9%20%D9%85%D8%AF%D9%8A%D9%86%D8%A9%206%20%D8%A7%D9%83%D8%AA%D9%88%D8%A8%D8%B1%20%D8%A7%D9%84%D8%AD%D9%8A%20%D8%A7%D9%84%D8%B3%D8%A7%D8%AF%D8%B3%20%20(2).webp</image:loc>
+            <image:title>شقة للبيع 6 أكتوبر الحي السادس - صورة 2</image:title>
+        </image:image>
+        <image:image>
+            <image:loc>https://raw.githubusercontent.com/sherow1982/aqarat/main/images/images%D8%B4%D9%82%D8%A9%20%D8%AA%D9%85%D9%84%D9%8A%D9%83%20%D9%84%D9%84%D8%A8%D9%8A%D8%B9%20%D9%85%D8%AF%D9%8A%D9%86%D8%A9%206%20%D8%A7%D9%83%D8%AA%D9%88%D8%A8%D8%B1%20%D8%A7%D9%84%D8%AD%D9%8A%20%D8%A7%D9%84%D8%B3%D8%A7%D8%AF%D8%B3%20%20(3).webp</image:loc>
+            <image:title>شقة للبيع 6 أكتوبر الحي السادس - صورة 3</image:title>
+        </image:image>
+        <image:image>
+            <image:loc>https://raw.githubusercontent.com/sherow1982/aqarat/main/images/images%D8%B4%D9%82%D8%A9%20%D8%AA%D9%85%D9%84%D9%8A%D9%83%20%D9%84%D9%84%D8%A8%D9%8A%D8%B9%20%D9%85%D8%AF%D9%8A%D9%86%D8%A9%206%20%D8%A7%D9%83%D8%AA%D9%88%D8%A8%D8%B1%20%D8%A7%D9%84%D8%AD%D9%8A%20%D8%A7%D9%84%D8%B3%D8%A7%D8%AF%D8%B3%20%20(4).webp</image:loc>
+            <image:title>شقة للبيع 6 أكتوبر الحي السادس - صورة 4</image:title>
+        </image:image>
+        <image:image>
+            <image:loc>https://raw.githubusercontent.com/sherow1982/aqarat/main/images/images%D8%B4%D9%82%D8%A9%20%D8%AA%D9%85%D9%84%D9%8A%D9%83%20%D9%84%D9%84%D8%A8%D9%8A%D8%B9%20%D9%85%D8%AF%D9%8A%D9%86%D8%A9%206%20%D8%A7%D9%83%D8%AA%D9%88%D8%A8%D8%B1%20%D8%A7%D9%84%D8%AD%D9%8A%20%D8%A7%D9%84%D8%B3%D8%A7%D8%AF%D8%B3%20%20(5).webp</image:loc>
+            <image:title>شقة للبيع 6 أكتوبر الحي السادس - صورة 5</image:title>
+        </image:image>
+        <image:image>
+            <image:loc>https://raw.githubusercontent.com/sherow1982/aqarat/main/images/images%D8%B4%D9%82%D8%A9%20%D8%AA%D9%85%D9%84%D9%8A%D9%83%20%D9%84%D9%84%D8%A8%D9%8A%D8%B9%20%D9%85%D8%AF%D9%8A%D9%86%D8%A9%206%20%D8%A7%D9%83%D8%AA%D9%88%D8%A8%D8%B1%20%D8%A7%D9%84%D8%AD%D9%8A%20%D8%A7%D9%84%D8%B3%D8%A7%D8%AF%D8%B3%20%20(6).webp</image:loc>
+            <image:title>شقة للبيع 6 أكتوبر الحي السادس - صورة 6</image:title>
+        </image:image>
+        <image:image>
+            <image:loc>https://raw.githubusercontent.com/sherow1982/aqarat/main/images/images%D8%B4%D9%82%D8%A9%20%D8%AA%D9%85%D9%84%D9%8A%D9%83%20%D9%84%D9%84%D8%A8%D9%8A%D8%B9%20%D9%85%D8%AF%D9%8A%D9%86%D8%A9%206%20%D8%A7%D9%83%D8%AA%D9%88%D8%A8%D8%B1%20%D8%A7%D9%84%D8%AD%D9%8A%20%D8%A7%D9%84%D8%B3%D8%A7%D8%AF%D8%B3%20%20(7).webp</image:loc>
+            <image:title>شقة للبيع 6 أكتوبر الحي السادس - صورة 7</image:title>
+        </image:image>
+        <image:image>
+            <image:loc>https://raw.githubusercontent.com/sherow1982/aqarat/main/images/images%D8%B4%D9%82%D8%A9%20%D8%AA%D9%85%D9%84%D9%8A%D9%83%20%D9%84%D9%84%D8%A8%D9%8A%D8%B9%20%D9%85%D8%AF%D9%8A%D9%86%D8%A9%206%20%D8%A7%D9%83%D8%AA%D9%88%D8%A8%D8%B1%20%D8%A7%D9%84%D8%AD%D9%8A%20%D8%A7%D9%84%D8%B3%D8%A7%D8%AF%D8%B3%20%20(8).webp</image:loc>
+            <image:title>شقة للبيع 6 أكتوبر الحي السادس - صورة 8</image:title>
+        </image:image>
+        <image:image>
+            <image:loc>https://raw.githubusercontent.com/sherow1982/aqarat/main/images/images%D8%B4%D9%82%D8%A9%20%D8%AA%D9%85%D9%84%D9%8A%D9%83%20%D9%84%D9%84%D8%A8%D9%8A%D8%B9%20%D9%85%D8%AF%D9%8A%D9%86%D8%A9%206%20%D8%A7%D9%83%D8%AA%D9%88%D8%A8%D8%B1%20%D8%A7%D9%84%D8%AD%D9%8A%20%D8%A7%D9%84%D8%B3%D8%A7%D8%AF%D8%B3%20%20(9).webp</image:loc>
+            <image:title>شقة للبيع 6 أكتوبر الحي السادس - صورة 9</image:title>
+        </image:image>
+        <image:image>
+            <image:loc>https://raw.githubusercontent.com/sherow1982/aqarat/main/images/images%D8%B4%D9%82%D8%A9%20%D8%AA%D9%85%D9%84%D9%8A%D9%83%20%D9%84%D9%84%D8%A8%D9%8A%D8%B9%20%D9%85%D8%AF%D9%8A%D9%86%D8%A9%206%20%D8%A7%D9%83%D8%AA%D9%88%D8%A8%D8%B1%20%D8%A7%D9%84%D8%AD%D9%8A%20%D8%A7%D9%84%D8%B3%D8%A7%D8%AF%D8%B3%20%20(10).webp</image:loc>
+            <image:title>شقة للبيع 6 أكتوبر الحي السادس - صورة 10</image:title>
+        </image:image>
+        <image:image>
+            <image:loc>https://raw.githubusercontent.com/sherow1982/aqarat/main/images/images%D8%B4%D9%82%D8%A9%20%D8%AA%D9%85%D9%84%D9%8A%D9%83%20%D9%84%D9%84%D8%A8%D9%8A%D8%B9%20%D9%85%D8%AF%D9%8A%D9%86%D8%A9%206%20%D8%A7%D9%83%D8%AA%D9%88%D8%A8%D8%B1%20%D8%A7%D9%84%D8%AD%D9%8A%20%D8%A7%D9%84%D8%B3%D8%A7%D8%AF%D8%B3%20%20(11).webp</image:loc>
+            <image:title>شقة للبيع 6 أكتوبر الحي السادس - صورة 11</image:title>
+        </image:image>
+        
+        <!-- الفيديو التسويقي -->
+        <video:video>
+            <video:thumbnail_loc>https://i.ytimg.com/vi/EZne5VMpJbg/maxresdefault.jpg</video:thumbnail_loc>
+            <video:title>عرض فيديو شقة للبيع في 6 أكتوبر الحي السادس</video:title>
+            <video:description>فيديو عرض شامل لشقة تمليك 67 متر في الحي السادس بمدينة 6 أكتوبر - موقع حيوي - عيادة - مكتب محامي - عقد أخضر - خالصة ضرائب</video:description>
+            <video:content_loc>https://www.youtube.com/embed/EZne5VMpJbg</video:content_loc>
+            <video:player_loc>https://www.youtube.com/watch?v=EZne5VMpJbg</video:player_loc>
+            <video:duration>90</video:duration>
+            <video:upload_date>2025-12-20</video:upload_date>
+            <video:expiration_date>2026-12-20</video:expiration_date>
+            <video:family_safe>yes</video:family_safe>
+            <video:restriction relationship="deny"></video:restriction>
+            <video:price currency="EGP">1300000</video:price>
+            <video:requires_subscription>no</video:requires_subscription>
+            <video:live>no</video:live>
+            <video:tag>6 أكتوبر</video:tag>
+            <video:tag>الحي السادس</video:tag>
+            <video:tag>شقة للبيع</video:tag>
+            <video:tag>عقارات</video:tag>
+            <video:tag>عيادة</video:tag>
+            <video:tag>مكتب محامي</video:tag>
+        </video:video>
+        
     </url>
 
 </urlset>
