@@ -1,18 +1,34 @@
 # robots.txt for https://sherow1982.github.io/aqarat/
+# ملف الروبوت الآلي للموقع على GitHub Pages
 
+# مسموح للا بوتات البحث بالكامل
 User-agent: *
 Allow: /
+Disallow: 
 
-# Sitemap
-Sitemap: https://sherow1982.github.io/aqarat/sitemap.xml
-
-# Allow all major search engines
+# Google Bot - الأولوية العالية
 User-agent: Googlebot
 Allow: /
+Crawl-delay: 1
 
-User-agent: Bingbot
+# Google Image Bot - رابط الصور بجوجل
+User-agent: Googlebot-Image
 Allow: /
 
+# Google Video Bot - رابط الفيديو بجوجل
+User-agent: Googlebot-Video
+Allow: /
+
+# Bing Bot
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1
+
+# Bing Image Bot
+User-agent: msnbot-media
+Allow: /
+
+# Other Search Engines
 User-agent: Slurp
 Allow: /
 
@@ -24,3 +40,30 @@ Allow: /
 
 User-agent: YandexBot
 Allow: /
+
+User-agent: FacebookExternalHit
+Allow: /
+
+User-agent: Twitterbot
+Allow: /
+
+User-agent: WhatsApp
+Allow: /
+
+# Disallow bad bots
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: SemrushBot
+Disallow: /
+
+User-agent: DotBot
+Disallow: /
+
+# Sitemap
+Sitemap: https://sherow1982.github.io/aqarat/sitemap.xml
+
+# هذا ملف الروبوت يسمح بالتارشيف السريع والملء، عذرا الابوتات الضارة
